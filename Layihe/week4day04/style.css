@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    /* Header info bolmesi */
+    .header-info{
+    background-color: #262626;
+    color: white;
+    padding: 12px 0px;
+    }
+    
+    
+    .header-container{
+    width: 800px;
+    margin:0px auto;
+    display: flex;
+    justify-content:space-between;
+     }
+    
+     .header-contact-info i{
+    color:blue;
+    margin-right: 10px;
+    
+    
+     }
+         
+    .header-contact-info span{
+    margin right:10px;
+    
+    
+    }
+    
+    .header-social-icons i{
+    margin: 0px 1px ;
+    color: blue;
+    
+    
+    }
+    
+    
+    /* Header navbar bolmesi */
+    .header-navbar{
+    background-color: green;
+    }
