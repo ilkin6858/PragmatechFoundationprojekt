@@ -1,0 +1,655 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+    
+    }
+    
+    
+    
+    
+    
+    /* Header info bolmesi */
+    .header-info{
+    background-color: #262626;
+    color: white;
+    padding: 12px 0px;
+    }
+    
+    
+    .header-container{
+    width: 100%;
+    margin:0px auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+     }
+    
+     
+         
+    .header-contact-info span{
+    margin-right:10px;
+    
+    
+    }
+    
+    
+    
+    
+    /* Header navbar bolmesi */
+    .header-navbar{
+        /* border: 1px solid red; */
+        padding: 18px 0px;
+    
+    }
+
+
+
+
+
+
+
+.Home-info ul{
+margin: 0px;
+padding: 0px;
+display: flex;
+
+}
+    
+.Home-info ul li{
+padding: 0px 10px;
+list-style: none;
+
+
+
+}
+
+
+
+#slider{
+height: 500px;
+/* border: 1px solid green; */
+position: relative;
+
+}
+
+.slider-item{
+width: 100%;
+height: 100%;
+/* border: 1px solid red; */
+background-image: url('../img/slider-img.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: left center;
+position: absolute;
+top:0px;
+left:0px;
+z-index:1;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+
+
+}
+
+
+
+.slider-button{
+/* border: 1px solid red;  */
+width: 100%;
+position: absolute;
+top:50px;
+left: 0px;
+z-index:2;
+
+
+
+}
+
+.slider-content{
+    width: 100%;
+    margin:0 auto;
+    margin-left:107px;
+    margin-top: 150px;
+    line-height: 10px;
+  
+    }
+
+.slider-content h3{
+    color:#585858;
+    font-size: 16px;
+    
+    
+
+}
+
+
+.slider-content h1{
+    color: #373737;
+    font-size: 2.5rem;
+
+
+}
+
+.slider-content button{
+    background: #454545;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-top: 42px;
+    cursor:pointer;
+    transition: all .3s ease;
+    
+}
+
+.slider-content button:hover{
+background: black;
+
+
+}
+
+
+
+
+
+.josh-info{
+    
+width: 100%;
+height: 800px;
+
+
+
+
+    }
+
+.profile-image{
+    margin-top:110px ;
+    margin-left: 100px;
+    width: 360px;
+    height: 360px;
+    background-color: red;
+
+     background-image: url('../img/profile-img.jpg') 
+ }
+
+
+ .job-info{
+width: 750px;
+height: 364px;
+/* background-color: red;   */
+margin-left: 550px;
+margin-top: -500px;
+color:#878787;
+}
+
+.job-info h1{
+color: #454545;
+font-size: 35px;
+
+}
+
+ .about{
+display: block;
+/* background: green;  */
+width: 360px;
+height: 162px;
+margin-left:150px;
+color:#878787;; 
+font-size: 16px;
+line-height: 25px;
+
+ }
+
+
+
+
+/*  start section service style */
+
+.heading{
+margin: 0px 0px 10px;
+
+}
+
+.heading h2{
+color:#454545;
+font-size: 35px;
+line-height:51px;
+margin-top: 0px;
+font-family:35px sans-serif;
+font-style: normal;
+font-weight: bold;
+letter-spacing: 0px;
+
+}
+
+.heading p{
+color: #878787;
+font-size:20px;
+font-weight: normal;
+margin: 0px 10px;
+}
+
+
+#project{
+background: #f9f9f9;
+padding: 30px 0px;
+
+
+}
+
+
+.project-item{
+background:#f9f9f9;
+height: 200px;
+margin: 0px 15px;
+
+padding: 0px 15px;
+
+
+ 
+
+}
+
+ .project-item i{
+    margin: 32px 0px 22px;
+    font-size: 32px;
+    height: 85px;
+    width: 85px;
+    line-height: 85px;
+    margin-top:32px;
+    text-align: center;
+    margin-bottom: 22px;
+    background:white;
+    color: black;
+    margin-bottom: 22px;
+
+}
+
+
+.project-item h4{
+color: #656565;
+font-size: 32px;
+margin: 10px 0px;
+font: 20px s;
+
+}
+
+.project-item p{
+color:  #878787;
+font-size: 16px;
+font-weight: normal;
+line-height: 25px;
+
+
+}
+
+
+
+
+
+/* start resume bolmesi */
+
+.resume-book h2{
+color:#454545;
+font-size:35px;
+line-height: 52px;
+margin-top: 40px;
+padding-top: 50px;
+font-family:sans-serif;
+
+font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0px
+
+}
+
+.resume-book p{
+    color: #878787;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+
+   font-family: 16px sans-serif;
+
+}
+
+    
+  .resume-item{
+  background:#ffffff;
+  height: 300px;
+  width: 100%;
+  
+  
+}     
+
+.resume-item i{
+font-size: 20px;
+
+}
+
+.resume-item h4{
+    color: #656565;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin:10px 0px;
+    font-family: 20px sans-serif;
+
+}
+
+.resume-item strong{
+
+    color: #797979;
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+
+}
+    
+
+
+.resume-item p{
+    color: #878787;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    font-family: 16px  sans-serif;
+    margin: 0px 0px 16px;
+    padding-bottom: 60px;
+
+}
+
+.resume-item hr{
+padding: 1px;
+
+
+}
+
+/* finish resume bolmesi */
+
+
+
+/* start works bolmesi */
+
+.works-book h2 {
+    color: #454545;
+    font-size: 35px;
+    line-height: 52px;
+    margin-top: 0px 0px 10px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-family: 35px sans-serif;
+
+}
+
+.works-book p{
+    color: #878787;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+    font-family: 16px sans-serif;
+}
+
+
+.works-item{
+ height: 250px;
+ 
+ margin: 10px;
+
+
+ 
+cursor:crosshair;
+
+
+
+}
+
+.works-item img{
+width: 100%;
+
+object-fit: cover;
+
+}
+
+
+/* finish works bolmesi */
+
+
+
+
+
+
+
+/* start contcat bolmesi */
+
+.contact-item{
+    background:#ffffff;
+    /* background: bisque; */
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+
+}
+
+
+
+.contact-item h2{
+
+    color: #454545;
+    font-size: 35px;
+    line-height: 52px;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+.contact-item p{
+
+    color: #878787;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    margin: 0 0 10px;
+
+}
+
+
+.contact-item input{
+    padding: 6px 12px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid rgb(126, 119, 119);
+    margin:0px 10px;
+    margin-bottom: 10px;
+
+}
+
+
+.contact-item textarea{
+    padding: 6px 12px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid rgb(126, 119, 119);
+    margin:0px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+   
+}
+
+
+
+.contact-book button{
+/* text-align: center;
+background:black; */
+
+
+background: #454545;
+    border: none;
+    border-radius: 0px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 50px;
+    padding-bottom: 10px;
+    margin-top: 24px;
+    display: block;
+    width: 100%;
+
+}
+
+
+/* finish contact bolmesi */
+
+
+
+/* start footer bolmesi */
+
+.footer-book{
+width: 100%;
+height: 400px;
+background: #f9f9f9;
+
+
+}
+
+.footer-book p{
+
+    text-align: center;
+    color: #878787;
+    
+}
+
+
+.footer-book ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+
+}
+     
+
+
+ 
+ .footer-book li{
+margin: 20px;
+font-size: 15px;
+
+
+ }
+
+ .footer-book li a{
+color:#454545;
+
+
+
+
+ }
+
+
+ .footer-book li a:hover{
+   background-color:black;
+   color: white;
+   transform: scale(1.1);
+   font-size: 25px;
+   border-radius: 2px;
+   
+   
+
+
+ }
+
+
+ .basliq{
+height: 30px;
+background-color: white;
+
+cursor: pointer;
+
+
+
+
+
+ }
+
+
+ .basliq:hover{
+    height: 30px;
+    background-color: #918f8f;
+    box-shadow: 1px 1px solid grey;
+    transition: all 2s ease;
+
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
